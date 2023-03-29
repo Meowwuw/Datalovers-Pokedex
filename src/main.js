@@ -1,7 +1,8 @@
 import { filterData, sortData } from "./data.js";
 import data from "./data/pokemon/pokemon.js";
 
-let { pokemon } = data;
+const { pokemon } = data;
+let memory = pokemon;
 
 const sortBySelect = document.getElementById("sortBy");
 const sortOrderSelect = document.getElementById("sortOrder");
@@ -9,34 +10,32 @@ const sortOrderSelect = document.getElementById("sortOrder");
 const pokemonsContainer = document.getElementById("pokemons");
 const pokemonFilter = document.getElementById("pokemon-filter");
 
-sortBySelect.addEventListener("change", () => {
-  let sortedPokemons = sortData(
-    pokemon,
+const sortBySelectCallback = () => {
+  const sortedPokemons = sortData(
+    memory,
     sortBySelect.value,
     sortOrderSelect.value
   );
-  pokemon = sortedPokemons;
-  sortedPokemons = filterData(pokemon, (pokemon) =>
-    pokemon.name.startsWith(pokemonFilter.value)
-  );
   pokemonsContainer.replaceChildren(...injectPokemons(sortedPokemons));
-});
+};
 
-sortOrderSelect.addEventListener("change", () => {
-  let reversedPokemons = pokemon.reverse();
-  pokemon = reversedPokemons;
-  reversedPokemons = filterData(pokemon, (pokemon) =>
-    pokemon.name.startsWith(pokemonFilter.value)
-  );
+const sortOrderSelectCallback = () => {
+  const reversedPokemons = memory.reverse();
   pokemonsContainer.replaceChildren(...injectPokemons(reversedPokemons));
-});
+};
 
-pokemonFilter.addEventListener("input", () => {
-  const filteredPokemons = filterData(pokemon, (pokemon) =>
-    pokemon.name.startsWith(pokemonFilter.value)
+sortBySelect.addEventListener("change", () => sortBySelectCallback());
+sortOrderSelect.addEventListener("change", () => sortOrderSelectCallback());
+
+pokemonFilter.addEventListener("input", (e) => {
+  memory = filterData(pokemon, (p) =>
+    p.name.startsWith(e.target.value)
   );
 
-  pokemonsContainer.replaceChildren(...injectPokemons(filteredPokemons));
+  pokemonsContainer.replaceChildren(...injectPokemons(memory));
+
+  sortOrderSelectCallback();
+  sortBySelectCallback();
 });
 
 const injectPokemons = (pokemons) => {
@@ -45,11 +44,15 @@ const injectPokemons = (pokemons) => {
     pokemonCard.classList.add("pokemon-card");
     const pokemonData = document.createElement("div");
     pokemonData.classList.add("pokemon-data");
+    const pokemonImage = document.createElement("img");
+    pokemonImage.src = obj.img;
+    pokemonImage.classList.add("pokemon-image");
     const pokemonNum = document.createElement("div");
     pokemonNum.innerText = obj.num;
     const pokemonName = document.createElement("div");
     pokemonName.innerText = obj.name;
-    pokemonData.append(pokemonNum, pokemonName);
+    
+    pokemonData.append(pokemonImage, pokemonNum, pokemonName);
     pokemonCard.appendChild(pokemonData);
     return pokemonCard;
   });
