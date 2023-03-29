@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
+    <link rel="icon" href="https://www.freepnglogos.com/uploads/pokemon-symbol-logo-png-31.png">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
+    <header>
+      <img src="https://external-preview.redd.it/tQged7mKJ3cUpNMq5IMeceZvyKP3cTyHqhNmKEQ0Vv8.png?width=640&crop=smart&auto=webp&s=5fc89334e792e2c9b294d1d328bf522cdede4cdf" height="100px" alt="logo-pokemon">
+        <nav>
+        <div class="sort-options">
+          <label for="sortBy">Ordenar por:</label>
+          <select name="sortBy" id="sortBy">
+            <option value="num">numero</option>
+            <option value="name">nombre</option>
+          </select>
+    
+          <label for="sortOrder">Ordenar:</label>
+          <select name="sortOrder" id="sortOrder">
+            <option value="asc">ascendente</option>
+            <option value="dsc">descendente</option>
+          </select>
+        </div>
+    
+        <div class="search">
+          <label for="pokemon-filter">Buscar: </label>
+          <input id="pokemon-filter" placeholder="Nombra un pokemon" type="text">
+        </div>
+      </nav>
+    </header>
+    
+    <main id="pokemons">
+      <section>
+        <!-- contenido de pokemons -->
+      </section>
+    </main>
+
+    <footer>
+      <script src="main.js" type="module"></script>
+    </footer>
   </body>
 </html>
