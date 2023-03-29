@@ -1,23 +1,27 @@
-import { example, anotherExample } from '../src/data.js';
+import { filterData, sortData } from "../src/data.js";
 
-
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+describe("filterData", () => {
+  it("is a function", () => {
+    expect(typeof filterData).toBe("function");
   });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it("returns `pikachu`", () => {
+    expect(
+      filterData([{ name: "pikachu" }, { name: "dragonite" }], (pokemon) =>
+        pokemon.name.startsWith("pikachu")
+      )
+    ).toStrictEqual([{ name: "pikachu" }]);
   });
 });
 
-
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
+describe("sortData", () => {
+  it("is a function", () => {
+    expect(typeof sortData).toBe("function");
   });
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it("returns `pikachu after dragonite`", () => {
+    expect(
+      sortData([{ name: "pikachu" }, { name: "dragonite" }], "name", "asc")
+    ).toStrictEqual([{ name: "dragonite" }, { name: "pikachu" }]);
   });
 });
