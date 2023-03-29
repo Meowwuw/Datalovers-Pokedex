@@ -7,7 +7,7 @@ export default {
       "name": "kanto"
     },
     "about": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/001.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
     "size": {
       "height": "0.71 m",
       "weight": "6.9 kg"
@@ -105,7 +105,7 @@ export default {
       "name": "kanto"
     },
     "about": "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/002.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
     "size": {
       "height": "0.99 m",
       "weight": "13.0 kg"
@@ -203,7 +203,7 @@ export default {
       "name": "kanto"
     },
     "about": "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/003.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
     "size": {
       "height": "2.01 m",
       "weight": "100.0 kg"
@@ -301,7 +301,7 @@ export default {
       "name": "kanto"
     },
     "about": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/004.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
     "size": {
       "height": "0.61 m",
       "weight": "8.5 kg"
@@ -397,7 +397,7 @@ export default {
       "name": "kanto"
     },
     "about": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/005.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
     "size": {
       "height": "1.09 m",
       "weight": "19.0 kg"
@@ -500,7 +500,7 @@ export default {
       "name": "kanto"
     },
     "about": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/006.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
     "size": {
       "height": "1.70 m",
       "weight": "90.5 kg"
@@ -618,7 +618,7 @@ export default {
       "name": "kanto"
     },
     "about": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/007.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
     "size": {
       "height": "0.51 m",
       "weight": "9.0 kg"
@@ -712,7 +712,7 @@ export default {
       "name": "kanto"
     },
     "about": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/008.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
     "size": {
       "height": "0.99 m",
       "weight": "22.5 kg"
@@ -2194,7 +2194,7 @@ export default {
       "name": "kanto"
     },
     "about": "This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/024.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
     "size": {
       "height": "3.51 m",
       "weight": "65.0 kg"
@@ -2956,7 +2956,7 @@ export default {
   },
   {
     "num": "032",
-    "name": "nidoran ♂ (male)",
+    "name": "nidoran",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3264,7 +3264,7 @@ export default {
     },
     "pokemon-rarity": "normal",
     "type": [
-      "normal"
+      "fairy"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -3357,7 +3357,7 @@ export default {
     },
     "pokemon-rarity": "normal",
     "type": [
-      "normal"
+      "fairy"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -3660,7 +3660,8 @@ export default {
     },
     "pokemon-rarity": "normal",
     "type": [
-      "normal"
+      "normal",
+      "fairy"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -3760,14 +3761,15 @@ export default {
       "name": "kanto"
     },
     "about": "Wigglytuff has large, saucerlike eyes. The surfaces of its eyes are always covered with a thin layer of tears. If any dust gets in this Pokémon's eyes, it is quickly washed away.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/040.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png",
     "size": {
       "height": "0.99 m",
       "weight": "12.0 kg"
     },
     "pokemon-rarity": "normal",
     "type": [
-      "normal"
+      "normal",
+      "fairy"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -3853,7 +3855,7 @@ export default {
       "name": "kanto"
     },
     "about": "Zubat remains quietly unmoving in a dark spot during the bright daylight hours. It does so because prolonged exposure to the sun causes its body to become slightly burned.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/041.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
     "size": {
       "height": "0.79 m",
       "weight": "7.5 kg"
@@ -5612,7 +5614,7 @@ export default {
       "name": "kanto"
     },
     "about": "Arcanine is known for its high speed. It is said to be capable of running over 6,200 miles in a single day and night. The fire that blazes wildly within this Pokémon's body is its source of power.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/059.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png",
     "size": {
       "height": "1.91 m",
       "weight": "155.0 kg"
@@ -6054,7 +6056,7 @@ export default {
       "name": "kanto"
     },
     "about": "Abra sleeps for eighteen hours a day. However, it can sense the presence of foes even while it is sleeping. In such a situation, this Pokémon immediately teleports to safety.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/063.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
     "size": {
       "height": "0.89 m",
       "weight": "19.5 kg"
@@ -6240,7 +6242,7 @@ export default {
       "name": "kanto"
     },
     "about": "Alakazam's brain continually grows, making its head far too heavy to support with its neck. This Pokémon holds its head up using its psychokinetic power instead.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/065.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png",
     "size": {
       "height": "1.50 m",
       "weight": "48.0 kg"
@@ -7886,7 +7888,8 @@ export default {
     },
     "pokemon-rarity": "normal",
     "type": [
-      "electric"
+      "electric",
+      "steel"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -7977,7 +7980,8 @@ export default {
     },
     "pokemon-rarity": "normal",
     "type": [
-      "electric"
+      "electric",
+      "steel"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -10763,7 +10767,7 @@ export default {
       "name": "kanto"
     },
     "about": "Weezing loves the gases given off by rotted kitchen garbage. This Pokémon will find a dirty, unkempt house and make it its home. At night, when the people in the house are asleep, it will go through the trash.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/110.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png",
     "size": {
       "height": "1.19 m",
       "weight": "9.5 kg"
@@ -13905,7 +13909,7 @@ export default {
       "name": "kanto"
     },
     "about": "Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/142.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png",
     "size": {
       "height": "1.80 m",
       "weight": "59.0 kg"
@@ -14164,7 +14168,7 @@ export default {
       "name": "kanto"
     },
     "about": "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. The Pokémon gains power if it is stricken by lightning bolts.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/145.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png",
     "size": {
       "height": "1.60 m",
       "weight": "52.6 kg"
@@ -16310,7 +16314,7 @@ export default {
       "name": "johto"
     },
     "about": "Ariados's feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This Pokémon constricts the foe with thin and strong silk webbing.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/168.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/168.png",
     "size": {
       "height": "1.09 m",
       "weight": "33.5 kg"
@@ -17284,7 +17288,7 @@ export default {
       "name": "johto"
     },
     "about": "Xatu stands rooted and still in one spot all day long. People believe that this Pokémon does so out of fear of the terrible things it has foreseen in the future.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/178.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/178.png",
     "size": {
       "height": "1.50 m",
       "weight": "15.0 kg"
@@ -17560,7 +17564,7 @@ export default {
       "name": "johto"
     },
     "about": "Ampharos gives off so much light that it can be seen even from space. People in the old days used the light of this Pokémon to send signals back and forth with others far away.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/181.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/181.png",
     "size": {
       "height": "1.40 m",
       "weight": "61.5 kg"
@@ -18426,7 +18430,7 @@ export default {
       "name": "johto"
     },
     "about": "Aipom's tail ends in a hand-like appendage that can be cleverly manipulated. However, because the Pokémon uses its tail so much, its real hands have become rather clumsy.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/190.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/190.png",
     "size": {
       "height": "0.79 m",
       "weight": "11.5 kg"
@@ -18696,7 +18700,7 @@ export default {
       "name": "johto"
     },
     "about": "Yanma is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This Pokémon uses its flying ability to quickly chase down targeted prey.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/193.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/193.png",
     "size": {
       "height": "1.19 m",
       "weight": "38.0 kg"
@@ -18783,7 +18787,7 @@ export default {
       "name": "johto"
     },
     "about": "Wooper usually lives in water. However, it occasionally comes out onto land in search of food. On land, it coats its body with a gooey, toxic film.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/194.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/194.png",
     "size": {
       "height": "0.41 m",
       "weight": "8.5 kg"
@@ -19478,7 +19482,7 @@ export default {
       "name": "johto"
     },
     "about": "If two or more Wobbuffet meet, they will turn competitive and try to outdo each other's endurance. However, they may try to see which one can endure the longest without food. Trainers need to beware of this habit.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/202.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/202.png",
     "size": {
       "height": "1.30 m",
       "weight": "28.5 kg"
@@ -23219,7 +23223,7 @@ export default {
       "name": "johto"
     },
     "about": "Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/244.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/244.png",
     "size": {
       "height": "2.11 m",
       "weight": "198.0 kg"
@@ -23305,7 +23309,7 @@ export default {
       "name": "johto"
     },
     "about": "Suicune embodies the compassion of a pure spring of water. It runs across the land with gracefulness. This Pokémon has the power to purify dirty water.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/245.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/245.png",
     "size": {
       "height": "2.01 m",
       "weight": "187.0 kg"
@@ -23389,7 +23393,7 @@ export default {
       "name": "johto"
     },
     "about": "Larvitar is born deep under the ground. To come up to the surface, this Pokémon must eat its way through the soil above. Until it does so, Larvitar cannot see its parents.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/246.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/246.png",
     "size": {
       "height": "0.60 m",
       "weight": "72.0 kg"
@@ -23490,7 +23494,7 @@ export default {
       "name": "johto"
     },
     "about": "Pupitar creates a gas inside its body that it compresses and forcefully ejects to propel itself like a jet. The body is very durable—it avoids damage even if it hits solid steel.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/247.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/247.png",
     "size": {
       "height": "1.20 m",
       "weight": "152.0 kg"
@@ -23591,7 +23595,7 @@ export default {
       "name": "johto"
     },
     "about": "Tyranitar is so overwhelmingly powerful, it can bring down a whole mountain to make its nest. This Pokémon wanders about in mountains seeking new opponents to fight.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/248.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/248.png",
     "size": {
       "height": "2.00 m",
       "weight": "202.0 kg"
@@ -23694,7 +23698,7 @@ export default {
       "name": "johto"
     },
     "about": "Lugia's wings pack devastating power-a light fluttering of its wings can blow apart regular houses. As a result, this Pokémon chooses to live out of sight deep under the sea.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/249.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/249.png",
     "size": {
       "height": "5.21 m",
       "weight": "216.0 kg"
@@ -23781,7 +23785,7 @@ export default {
       "name": "johto"
     },
     "about": "Ho-Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokémon is said to live at the foot of a rainbow.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/250.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/250.png",
     "size": {
       "height": "3.80 m",
       "weight": "199.0 kg"
@@ -23870,7 +23874,7 @@ export default {
       "name": "johto"
     },
     "about": "This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
-    "img": "https://www.serebii.net/pokemongo/pokemon/251.png",
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/251.png",
     "size": {
       "height": "0.61 m",
       "weight": "5.0 kg"
