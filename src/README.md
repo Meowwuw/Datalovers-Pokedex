@@ -21,12 +21,12 @@ Además, puedes hacer clic en cada pokemon para ver información detallada sobre
 # Contribución
 Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
--Realiza un fork de este repositorio.
--Clona tu fork en tu computadora local.
--Crea una rama nueva para tus cambios con el comando git checkout -b nombre-de-tu-rama.
--Realiza tus cambios y haz commit con un mensaje descriptivo.
--Ejecuta el comando git push origin nombre-de-tu-rama para subir tus cambios a GitHub.
--Crea un pull request en este repositorio para que podamos revisar tus cambios.
+*Realiza un fork de este repositorio.
+*Clona tu fork en tu computadora local.
+*Crea una rama nueva para tus cambios con el comando git checkout -b nombre-de-tu-rama.
+*Realiza tus cambios y haz commit con un mensaje descriptivo.
+*Ejecuta el comando git push origin nombre-de-tu-rama para subir tus cambios a GitHub.
+*Crea un pull request en este repositorio para que podamos revisar tus cambios.
 
 ## Índice
 
