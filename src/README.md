@@ -34,6 +34,7 @@ Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 * [2. Prototipo de baja fidelidad](#2-prototipo-de-baja-fidelidad)
 * [3. Prototipo de alta calidad](#3-prototipo-de-alta-fidelidad)
 * [4. Testeos de usabilidad](#4-Testeos-de-usabilidad)
+* [5. Objetivos de aprendizaje](#5-Objetivos-de-aprendizaje)
 
 
 ***
@@ -56,7 +57,7 @@ Se desarrollo la idea principal en papel para poder maquetar la base del proyect
 
 Se recreo la idea principal de papel en Figma
 
-![Prototipo en Papel](img/prototipoBaja.jpg)
+![Prototipo en Papel](img/prototipoAlta.png)
 
 ## 4. Testeos de usabilidad
 
@@ -73,5 +74,21 @@ tipo planta = verde, tipo fuego  = anaranjado, etc. Por lo que se establecio un 
 
 En la cuarta prueba de testeo, el usuario queria poner buscar un pokemon segun su nombre en tiempo real, al ingresar ch, puedan salir las coincidencias com charizart, charmeleon y charmander, etc. Por lo que se implemento el metodo startWidth para que con cada interaccion pueda ir dando la sugerencia de busqueda de los pokemons.
 
+## 5. Objetivos de aprendizaje
+
+Programación web: Al trabajar en este proyecto adquiri experiencia y conocimiento sobre la creación de interfaces de usuario, la gestión de eventos y la integración de datos de diferentes fuentes.
+
+Manejo de datos: Trabajar en este proyecto me ha permitido adquirir habilidades en la gestión de datos, como la extracción, filtrado y ordenamiento de la data.
+
+Habilidades de programación: Al trabajar en este proyecto, mejore mis habilidades al escribir código limpio y eficiente, tambien aprendi a depurarlo mediante pruebas.
+
+En general, trabajar en este proyecto me proporciono una valiosa experiencia práctica en el desarrollo de software.
+
+## Conclusion
+
+En el proyecto Data Lovers - Pokédex esta presto a aceptar críticas constructivas y resolver conflictos de código.
+Gracias por llegar hasta aqui 
+
+![Prototipo en Papel](img/conclusion.png)
 
 
