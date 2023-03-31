@@ -48,6 +48,11 @@ const sortOrderSelectCallback = () => {
 sortBySelect.addEventListener("change", () => sortBySelectCallback());
 sortOrderSelect.addEventListener("change", () => sortOrderSelectCallback());
 
+const resetButton =document.getElementById("show-all-btn");
+resetButton.addEventListener('click', function() {
+  pokemonsContainer.replaceChildren(...injectPokemons(memory));
+});
+
 pokemonFilter.addEventListener("input", (e) => {
   memory = filterData(pokemon, (p) =>
     p.name.startsWith(e.target.value)
@@ -78,7 +83,7 @@ const injectPokemons = (pokemons) => {
     const pokemonName = document.createElement("div");
     pokemonName.innerText = obj.name.charAt(0).toUpperCase() + obj.name.slice(1);
     pokemonName.classList.add("pokemon-name");
-
+    
     const pokemonType = document.createElement("div");
     obj.type.forEach((type) => {
       const typeSpan = document.createElement("span");
@@ -91,11 +96,78 @@ const injectPokemons = (pokemons) => {
     });
     pokemonType.classList.add("pokemon-types");
     
+    // Agregar evento de clic a la tarjeta
+    pokemonCard.addEventListener('click', function() {
+      // Ocultar otras tarjetas
+      pokemonsContainer.childNodes.forEach(card => {
+        if (card !== pokemonCard) {
+          card.style.display = 'none';
+        }
+      });
+      if(pokemonCard.children.length < 2){
+        const pokemonTmp = document.createElement("div");
+        pokemonTmp.classList.add("pokemon-tmp");
+      
+        const pokemonDescription = document.createElement("div");
+        pokemonDescription.innerText = obj.about;
+
+        const pokemonSize = document.createElement("div");
+        const formattedHeight = obj.size.height.replace(" m", "") + "m";
+        const formattedWeight = obj.size.weight.replace(" kg", "") + "kg";
+        pokemonSize.innerText = "height: " + formattedHeight + "\nweight: " + formattedWeight;
+        pokemonSize.classList.add("pokemon-size");
+
+
+        const pokemonResistant = document.createElement("div");
+        pokemonResistant.classList.add("pokemon-resistant");
+
+        const resistantLabel = document.createElement("span");
+        resistantLabel.innerText = "Resistente: ";
+        pokemonResistant.appendChild(resistantLabel);
+
+        obj.resistant.forEach((type) => {
+          const resistantSpan = document.createElement("span");
+          resistantSpan.innerText = type;
+          resistantSpan.classList.add("resistant-type");
+          if (type in typeClasses) {
+            resistantSpan.classList.add(typeClasses[type]);
+          }
+          pokemonResistant.appendChild(resistantSpan);
+        });
+
+        const pokemonWeaknesses = document.createElement("div");
+        pokemonWeaknesses.classList.add("pokemon-weaknesses");
+        
+        const weaknessesLabel = document.createElement("span");
+        weaknessesLabel.innerText = "Debilidad: ";
+        pokemonWeaknesses.appendChild(weaknessesLabel);
+        
+        obj.weaknesses.forEach((type) => {
+          const weaknessesSpan = document.createElement("span");
+          weaknessesSpan.innerText = type;
+          weaknessesSpan.classList.add("weaknesses-type");
+          if (type in typeClasses) {
+            weaknessesSpan.classList.add(typeClasses[type]);
+          }
+          pokemonWeaknesses.appendChild(weaknessesSpan);
+        });
+        
+   
+        resetButton.style.display ="block"
+        
+        pokemonTmp.append(pokemonDescription, pokemonSize, pokemonResistant, pokemonWeaknesses);
+        pokemonCard.appendChild(pokemonTmp)  
+      }
+      
+    });
+    
     pokemonData.append(pokemonImage, pokemonNum, pokemonName, pokemonType);
-    pokemonCard.appendChild(pokemonData);
+    pokemonCard.appendChild(pokemonData)
     return pokemonCard;
   });
 
 };
+
+
 
 pokemonsContainer.replaceChildren(...injectPokemons(pokemon));

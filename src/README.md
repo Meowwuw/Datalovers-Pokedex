@@ -71,5 +71,7 @@ por lo que añadimos un overflow: hidden; a la tarjeta que basicamente establece
 En la tercera prueba de testeo, el usuario deseaba que los pokemons segun el tipo, cambien el contenedor de sus div, ejemplo en caso que sea
 tipo planta = verde, tipo fuego  = anaranjado, etc. Por lo que se establecio un objeto que alberga todas las clases de los tipos, estos se evaluaban y ya en el codigo css, se hacie el cambio de color dependiendo de la condicion.
 
+En la cuarta prueba de testeo, el usuario queria poner buscar un pokemon segun su nombre en tiempo real, al ingresar ch, puedan salir las coincidencias com charizart, charmeleon y charmander, etc. Por lo que se implemento el metodo startWidth para que con cada interaccion pueda ir dando la sugerencia de busqueda de los pokemons.
+
 
 
